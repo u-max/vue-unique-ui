@@ -1,13 +1,12 @@
 <p align="center">
   <a href="http://vux.li">
-
     <img src="https://vue.docschina.org/images/logo.png" width="175">
   </a>
 </p>
 
 <p align="center">UNIQUE UI library for [Vuejs 2.0](https://vuejs.org/)</p>
 
-<p align="center">**vue-unique-ui**</p>
+<h1 align="center">vue-unique-ui</h1>
 
 <p align="center">
   <a href="https://vux.li/demos/v2?x-page=github">
@@ -20,15 +19,12 @@
   <br>
   <br>
   <a href="https://github.com/u-max/vue-unique-ui">
-
     <img src="https://img.shields.io/github/stars/airyland/vux.svg?style=social&label=Star" alt="">
   </a>
   <a href="https://github.com/u-max/vue-unique-ui">
-
     <img src="https://img.shields.io/github/forks/airyland/vux.svg?style=social&label=Fork" alt="">
   </a>
   <a href="https://github.com/u-max/vue-unique-ui">
-
     <img src="https://img.shields.io/github/watchers/airyland/vux.svg?style=social&label=Watch" alt="">
   </a>
   <br>
@@ -51,7 +47,6 @@
   </a>
   <br>
   <a href="https://www.npmjs.com/package/vue-unique-ui">
-
     <img src="https://img.shields.io/npm/l/vux.svg?style=flat-square" alt="">
   </a>
   <a href="https://www.npmjs.com/package/vue-unique-ui">
