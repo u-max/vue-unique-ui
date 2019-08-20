@@ -40,4 +40,4 @@
 
 ## Docs
 
-For more information, please refer to [API](https://github.com/u-max/vue-unique-ui/wiki) in our documentation.
+For more information, please refer to **[API](https://github.com/u-max/vue-unique-ui/wiki)** in our documentation.
