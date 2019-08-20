@@ -21,3 +21,7 @@
   <br>
   <br>
 </p>
+
+##Docs
+
+Refer to the [document](https://github.com/u-max/vue-unique-ui/wiki)
