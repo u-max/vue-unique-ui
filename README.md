@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://vux.li">
+  <a href="https://u-max.github.io/vue-unique-ui/">
     <img src="https://vue.docschina.org/images/logo.png" width="175">
   </a>
 </p>
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-unique-ui"><img src="https://img.shields.io/badge/node-%3E%3D6.0-brightgreen.svg" alt="Version"></a>
-  <a href="#">
+  <a href="javascript:;">
     <img src="https://api.travis-ci.org/airyland/vux.svg?branch=v2" alt="">
   </a>
   <a href="https://www.npmjs.com/package/vue-unique-ui">
@@ -23,9 +23,25 @@
 </p>
 
 ## Mobile demo
-[](https://github.com/YuFy1314/Material/blob/master/vue-unique-ui/1566272329.png)
+<p align="center">
+  <a href="javascript:;">
+
+```
+<img src="https://github.com/YuFy1314/Material/blob/master/vue-unique-ui/1566272329.png" width="175">
+```
+
+  </a>
+</p>
+
 ## PC demo
-[☛live demo☚](https://u-max.github.io/vue-unique-ui/)
+<p align="center">
+  <a href="https://u-max.github.io/vue-unique-ui/">
+
+☛live demo☚
+
+  </a>
+</p>
+
 ## Docs
 
 Refer to the [document](https://github.com/u-max/vue-unique-ui/wiki)
