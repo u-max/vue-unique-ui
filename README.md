@@ -34,9 +34,7 @@
 ## PC demo
 <p align="center">
   <a href="https://u-max.github.io/vue-unique-ui/">
-
-☛live demo☚
-
+    ☛live demo☚
   </a>
 </p>
 
