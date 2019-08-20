@@ -9,6 +9,8 @@
  * @param {Boolean} isCancelButton 是否显示取消按钮
  * @param {String} submitText 确定按钮文字
  * @param {String} cancelText 取消按钮文字
+ * @param {Object} submitBtnStyle 确定按钮的样式
+ * @param {Object} cancelBtnStyle 取消按钮的样式
  * emit方法:
  *     submitToast 确定
  *     cancelToast 取消
@@ -26,10 +28,10 @@
                     <div class="uniqueUI-popup-text">{{ toast.text }}</div>
                 </div>
                 <div class="uniqueUI-popup-buttons">
-                    <span class="uniqueUI-popup-button uniqueUI-popup-button-bold" @click="submitToast">
+                    <span class="uniqueUI-popup-button uniqueUI-popup-button-bold" @click="submitToast" :style="toast.submitBtnStyle">
                         {{ toast.submitText }}
                     </span>
-                    <span class="uniqueUI-popup-button uniqueUI-popup-button-bold" @click="cancelToast" v-if="toast.isCancelButton">
+                    <span class="uniqueUI-popup-button uniqueUI-popup-button-bold" @click="cancelToast" v-if="toast.isCancelButton" :style="toast.cancelBtnStyle">
                         {{ toast.cancelText }}
                     </span>
                 </div>
@@ -45,10 +47,6 @@ export default {
     props: {
         oToastOptions: Object
     },
-    data () {
-        return {
-        }
-    },
     computed: {
         toast(){
             let oToastOptions = this.oToastOptions || {};
@@ -58,17 +56,19 @@ export default {
                 text: oToastOptions.text ? oToastOptions.text : '欢迎使用uniqueUI',
                 isCancelButton: typeof(oToastOptions.isCancelButton) === 'undefined' ? false : oToastOptions.isCancelButton,
                 submitText: oToastOptions.submitText ? oToastOptions.submitText : '确定',
-                cancelText: oToastOptions.cancelText ? oToastOptions.cancelText : '取消'
+                cancelText: oToastOptions.cancelText ? oToastOptions.cancelText : '取消',
+                submitBtnStyle: oToastOptions.submitBtnStyle || {},
+                cancelBtnStyle: oToastOptions.cancelBtnStyle || {},
             };
             return toast;
         }
     },
     methods: {
-        submitToast(){
-            this.$emit('submitToast');
+        submitToast(e){
+            this.$emit('submitToast', e);
         },
-        cancelToast(){
-            this.$emit('cancelToast');
+        cancelToast(e){
+            this.$emit('cancelToast', e);
         }
     }
 }
