@@ -7,8 +7,8 @@
 
 <script>
 import Vue from 'vue'
-import uniqueUI from '../../lib/index.js';
-// import uniqueUI from '../../test/unique-ui.js';
+// import uniqueUI from '../../lib/index.js';
+import uniqueUI from '../../example/unique-ui.js';
 
 Vue.use(uniqueUI)
 export default {
