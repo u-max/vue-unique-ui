@@ -22,6 +22,10 @@
   <br>
 </p>
 
+## Mobile demo
+[](https://github.com/YuFy1314/Material/blob/master/vue-unique-ui/1566272329.png)
+## PC demo
+[☛live demo☚](https://u-max.github.io/vue-unique-ui/)
 ## Docs
 
 Refer to the [document](https://github.com/u-max/vue-unique-ui/wiki)
