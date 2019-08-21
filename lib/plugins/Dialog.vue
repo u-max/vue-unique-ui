@@ -2,8 +2,8 @@
 /**
  * Dialog 模态框/对话框
  * @author YuFy
- * @return oDialogOptions
- * @param {Boolean} isShow 是否显示
+ * @return isShow 是否显示
+ * @return oDialogOptions  相关配置信息
  * @param {String} title 标题
  * @param {String} text 提示说明
  * @param {Boolean} isCancelButton 是否显示取消按钮
@@ -20,7 +20,7 @@
     <transition name="fade"
             enter-active-class="animated fadeIn"
             leave-active-class="animated fadeOut">
-        <div id="Dialog" v-if="dialog.isShow">
+        <div id="Dialog" v-if="isShow">
             <div class="uniqueUI-popup uniqueUI-popup-in" style="display: block;">
                 <div class="uniqueUI-popup-inner">
                     <div class="uniqueUI-popup-title">{{ dialog.title }}</div>
@@ -44,13 +44,20 @@
 export default {
     name: 'Dialog',
     props: {
-        oDialogOptions: Object
+        oDialogOptions: {
+            type: Object,
+            required: false
+        },
+        isShow: {
+            type: Boolean,
+            required: true,
+            default: false
+        }
     },
     computed: {
         dialog(){
             let oDialogOptions = this.oDialogOptions || {};
             let dialog = {
-                isShow: typeof(oDialogOptions.isShow) === 'undefined' ? false : oDialogOptions.isShow,
                 title: oDialogOptions.title ? oDialogOptions.title : '温馨提示',
                 text: oDialogOptions.text ? oDialogOptions.text : '欢迎使用uniqueUI',
                 isCancelButton: typeof(oDialogOptions.isCancelButton) === 'undefined' ? false : oDialogOptions.isCancelButton,
