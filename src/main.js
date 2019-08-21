@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import animate from 'animate.css'
-require('@/assets/js/style.js'); // 公用样式
+// require('@/assets/js/style.js'); // 公用样式
+import uniqueUI from '../lib/unique-ui.js';
+Vue.use(uniqueUI)
 // require('@/public/publicComponents.js'); // vue公共组件
 
 Vue.use(animate)

@@ -6,9 +6,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import uniqueUI from '../../lib/unique-ui.js';
-Vue.use(uniqueUI)
 export default {
     name: 'Home',
     data () {
