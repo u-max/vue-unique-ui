@@ -1,29 +1,29 @@
 <template>
     <div id="Home">
         <button id="alertBtn" type="button" class="uniqueUI-btn uniqueUI-btn-blue uniqueUI-btn-outlined" @click="alert">警告消息框</button>
-        <Toast ref="toast" :oToastOptions="oToastOptions" @submitToast="submitToast">
-        </Toast>
+        <Dialog :oDialogOptions="oDialogOptions" @submitDialog="submitDialog"></Dialog>
     </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import uniqueUI from '../../lib/unique-ui.js';
+Vue.use(uniqueUI)
 export default {
     name: 'Home',
     data () {
         return {
-            oToastOptions: {
+            oDialogOptions: {
                 isShow: false
             }
         }
     },
-    created(){
-    },
     methods: {
         alert(){
-            this.oToastOptions.isShow = true;
+            this.oDialogOptions.isShow = true;
         },
-        submitToast(){
-            this.oToastOptions.isShow = false;
+        submitDialog(){
+            this.oDialogOptions.isShow = false;
         }
     }
 }

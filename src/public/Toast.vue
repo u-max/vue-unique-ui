@@ -6,15 +6,9 @@
  * @param {Boolean} isShow 是否显示
  * @param {String} title 标题
  * @param {String} text 提示说明
- * @param {Boolean} isCancelButton 是否显示取消按钮
- * @param {String} submitText 确定按钮文字
- * @param {String} cancelText 取消按钮文字
- * @param {Object} submitBtnStyle 确定按钮的样式
- * @param {Object} cancelBtnStyle 取消按钮的样式
  * emit方法:
  *     submitToast 确定
  *     cancelToast 取消
- * @version 1.0.0
  */
  -->
 <template>

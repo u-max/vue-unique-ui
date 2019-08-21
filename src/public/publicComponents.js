@@ -1,5 +1,7 @@
 import Vue from 'vue';
 
-const Toast = r => require.ensure([], () => r(require('./Toast.vue')), 'Toast');
+const Dialog = r => require.ensure([], () => r(require('../../lib/plugins/Dialog.vue')), 'Dialog');
+// const Toast = r => require.ensure([], () => r(require('./Toast.vue')), 'Toast');
 
-Vue.component('Toast', Toast);
+Vue.component('Dialog', Dialog);
+// Vue.component('Toast', Toast);
