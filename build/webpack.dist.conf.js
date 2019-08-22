@@ -11,11 +11,11 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './lib/index.js'
+    app: './lib/unique-ui.js'
   },
   output: {
     filename: 'unique-ui.js',
-    path: path.resolve(__dirname, '../test/'),
+    path: path.resolve(__dirname, '../unique/'),
     library: 'uniqueUI',
     libraryTarget: 'umd',
     umdNamedDefine: true
