@@ -27,12 +27,9 @@
     "email": "yufy_info@qq.com"
   },
   "files": [
-    "dist",
     "lib"
   ],
-  "dependencies": {
-    "animate.css": "^3.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
