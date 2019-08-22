@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import uniqueUI from '../lib/unique-ui.js';
+import uniqueUI from '../lib/unique-ui';
 
 Vue.use(uniqueUI)
 Vue.config.productionTip = false
