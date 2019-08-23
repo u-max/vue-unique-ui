@@ -2,6 +2,7 @@
     <div id="Home">
         <button id="alertBtn" type="button" class="uniqueUI-btn uniqueUI-btn-blue uniqueUI-btn-outlined" @click="alert">警告消息框</button>
         <Dialog :isShow="isShow" @submitDialog="submitDialog"></Dialog>
+        
     </div>
 </template>
 
@@ -24,6 +25,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
 
 </style>
