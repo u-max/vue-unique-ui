@@ -27,6 +27,14 @@ export default {
         return {
         }
     },
+    created(){
+        window.onresize = function(){
+            var width = document.documentElement.clientWidth || document.body.clientWidth;
+            if (width > 768) {
+                alert('请到移动端或手机模式下查看!');
+            }
+        }
+    },
     methods: {
         docsClick(){
             window.location.href = 'https://github.com/u-max/vue-unique-ui';
@@ -99,7 +107,5 @@ export default {
         }
     }
 }
-@media screen and (min-width:769px){}
-
 
 </style>
