@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://u-max.github.io/vue-unique-ui/">
-    <img src="https://vue.docschina.org/images/logo.png" width="175">
+    <img src="https://raw.githubusercontent.com/u-max/vue-unique-ui/HEAD/src/assets/logo.png" width="175">
   </a>
 </p>
 
@@ -26,7 +26,7 @@
 <p align="center">
   <a href="javascript:;">
 
-<img src="https://github.com/YuFy1314/Material/blob/master/vue-unique-ui/1566272329.png" width="175">
+<img src="https://raw.githubusercontent.com/YuFy1314/Material/HEAD/vue-unique-ui/1566272329.png" width="175">
 
   </a>
 </p>
@@ -34,7 +34,7 @@
 ## PC demo
 <p align="center">
   <a href="https://u-max.github.io/vue-unique-ui/">
-    ☛live demo☚
+    ☛ live demo ☚
   </a>
 </p>
 
