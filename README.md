@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://u-max.github.io/vue-unique-ui/">
-    <img src="https://vue.docschina.org/images/logo.png" width="175">
+    <img src="https://github.com/u-max/vue-unique-ui/blob/master/docs/static/img/logo.d86e4b6.png" width="175">
   </a>
 </p>
 
