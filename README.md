@@ -3,7 +3,6 @@
     <img src="https://github.com/u-max/vue-unique-ui/blob/master/src/assets/logo.png" width="175">
   </a>
 </p>
-
 <h1 align="center">vue-unique-ui</h1>
 
 <p align="center">UNIQUE UI library for <a href="https://vuejs.org/">
