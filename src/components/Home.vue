@@ -1,8 +1,7 @@
 <template>
     <div id="Home">
         <button id="alertBtn" type="button" class="uniqueUI-btn uniqueUI-btn-blue uniqueUI-btn-outlined" @click="alert">警告消息框</button>
-        <Toast ref="toast" :oToastOptions="oToastOptions" @submitToast="submitToast">
-        </Toast>
+        <Dialog :isShow="isShow" @submitDialog="submitDialog"></Dialog>
     </div>
 </template>
 
@@ -11,19 +10,15 @@ export default {
     name: 'Home',
     data () {
         return {
-            oToastOptions: {
-                isShow: false
-            }
+            isShow: false
         }
-    },
-    created(){
     },
     methods: {
         alert(){
-            this.oToastOptions.isShow = true;
+            this.isShow = true;
         },
-        submitToast(){
-            this.oToastOptions.isShow = false;
+        submitDialog(){
+            this.isShow = false;
         }
     }
 }
